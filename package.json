@@ -2,8 +2,9 @@
   "name": "docker_web_app",
   "version": "1.0.0",
   "description": "Docker Web App Node.js",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/gamusta/docker-web-app/issues"
   },
-  "homepage": "https://github.com/gamusta/docker-web-app#readme"
+  "homepage": "https://github.com/gamusta/docker-web-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
